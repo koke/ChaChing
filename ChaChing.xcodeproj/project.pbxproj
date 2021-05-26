@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		E1BE7048265E8C25006CA4D9 /* ChaChingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BE7047265E8C25006CA4D9 /* ChaChingApp.swift */; };
-		E1BE704A265E8C25006CA4D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BE7049265E8C25006CA4D9 /* ContentView.swift */; };
 		E1BE704C265E8C26006CA4D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BE704B265E8C26006CA4D9 /* Assets.xcassets */; };
 		E1BE704F265E8C26006CA4D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BE704E265E8C26006CA4D9 /* Preview Assets.xcassets */; };
+		E1BE7057265E8C40006CA4D9 /* o.caf in Resources */ = {isa = PBXBuildFile; fileRef = E1BE7056265E8C38006CA4D9 /* o.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E1BE7044265E8C25006CA4D9 /* ChaChing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChaChing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1BE7047265E8C25006CA4D9 /* ChaChingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaChingApp.swift; sourceTree = "<group>"; };
-		E1BE7049265E8C25006CA4D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E1BE704B265E8C26006CA4D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1BE704E265E8C26006CA4D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E1BE7050265E8C26006CA4D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1BE7056265E8C38006CA4D9 /* o.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = o.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +52,8 @@
 		E1BE7046265E8C25006CA4D9 /* ChaChing */ = {
 			isa = PBXGroup;
 			children = (
+				E1BE7056265E8C38006CA4D9 /* o.caf */,
 				E1BE7047265E8C25006CA4D9 /* ChaChingApp.swift */,
-				E1BE7049265E8C25006CA4D9 /* ContentView.swift */,
 				E1BE704B265E8C26006CA4D9 /* Assets.xcassets */,
 				E1BE7050265E8C26006CA4D9 /* Info.plist */,
 				E1BE704D265E8C26006CA4D9 /* Preview Content */,
@@ -126,6 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1BE7057265E8C40006CA4D9 /* o.caf in Resources */,
 				E1BE704F265E8C26006CA4D9 /* Preview Assets.xcassets in Resources */,
 				E1BE704C265E8C26006CA4D9 /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +139,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1BE704A265E8C25006CA4D9 /* ContentView.swift in Sources */,
 				E1BE7048265E8C25006CA4D9 /* ChaChingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
